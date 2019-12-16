@@ -1,0 +1,110 @@
+/* 공통사항 */
+html,
+body {
+	font-family: 'Merriweather', serif;
+	font-size: 14px;
+	color: #222;
+	height: 5000px;
+}
+
+.wrap {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+h2,h3{font-family: 'Roboto', sans-serif;
+	letter-spacing: 5px;
+	font-weight: normal;
+	text-align: center;}
+	
+	h2{font-size: 36px;
+		padding: 24px 0;}
+
+h3{font-weight: 400;
+	padding: 16px 0;
+font-size: 18px;
+color: #444444;}
+
+p{line-height: 2;
+padding: 16px 0;
+}
+
+.about-wrap img{opacity: 0.7;
+}
+
+.about-wrap img:hover{opacity: 1;
+}
+
+/* header */
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	padding: 8px 16px;
+	background-color:white;
+	box-shadow:0 1px 5px rgba(0,0,0,0.5);
+}
+
+header>.logo,
+header>.nav-wrap>div {
+	padding: 10px 12px;
+	cursor: pointer;
+	letter-spacing: 4px;
+}
+
+header>.logo:hover,
+header>.nav-wrap>div:hover {
+	padding: 10px 12px;
+	cursor: pointer;
+	background-color: #cccccc;
+}
+
+/* main */
+
+
+/* section - about*/
+.about-wrap {
+	padding: 80px 0;
+}
+.about-wrap>.wrap>div{
+	width: 48%;
+}
+
+/* section - menu*/
+
+.menu-wrap {
+	padding: 80px 0;
+}
+.menu-wrap>.wrap>div{
+	width: 48%;
+}
+.menu-wrap h3 {
+	text-align: left;
+}
+
+.menu-wrap li{margin-bottom:  16px;
+}
+
+.menu-wrap p {padding: 8px 0;}
+/* section - contact*/
+
+.contact-wrap {
+	padding: 80px 0;
+}
+
+.contact-wrap input {
+	display: block;
+	width: 100%;
+	padding: 16px;
+	font-size: 18px;
+	margin: 16px 0;
+	border: none;
+	border-bottom: 1px solid #cccccc;
+	outline: none;
+}
+
+/* footer */
+footer{ background-color: #eeeeee;
+text-align: center;
+padding: 60px 0;
+}
