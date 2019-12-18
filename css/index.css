@@ -4,7 +4,7 @@ body {
 	font-family: 'Merriweather', serif;
 	font-size: 14px;
 	color: #222;
-	height: 5000px;
+	/* height: 5000px; */
 }
 
 .wrap {
@@ -107,4 +107,52 @@ header>.nav-wrap>div:hover {
 footer{ background-color: #eeeeee;
 text-align: center;
 padding: 60px 0;
+}
+
+
+/* 반응형 */
+
+
+@media screen and (max-width : 768px) {
+	.menu-wrap>.wrap>div{
+		width: 90%;
+	}
+
+	.menu-wrap {
+		margin: 5%;
+	}
+	.menu-wrap img {
+		margin: 0 -5%;
+	}
+}
+@media screen and (max-width : 575px) {
+	.about-wrap img{ display: none;
+	}
+	
+	header>.nav-wrap>div {
+	display: none;
+	}
+	.about-wrap>.wrap>div{
+		width: 90%;
+		margin: 5%;
+	}
+	.menu-wrap img {
+		margin: 0 -5%;
+	}
+
+	.contact-wrap {
+		padding: 80px 5%;
+	}
+	
+	.contact-wrap input {
+		display: block;
+		width: 90%;
+		padding: 16px;
+		font-size: 18px;
+		margin: 16px 0;
+		border: none;
+		border-bottom: 1px solid #cccccc;
+		outline: none;
+	}
+	.btn-white {margin: 5%;}
 }
